@@ -1,0 +1,17 @@
+\subsection{Linear Model}
+Using a linear regression model, the Dunning-Kruger effect can be stated as
+\begin{equation}
+ oc^* = \alpha + \beta_1 s^* + u
+\end{equation}
+with $\beta_1 < 0$.
+Substituting the observable variables and rearranging according to eq. \ref{p} and \ref{dd}:
+\begin{equation}
+  oe = \alpha + \beta_1 p + u - \epsilon(1 + \beta_1)
+\end{equation}
+
+\subsubsection{Correction}
+There are different ways to correct for the bias introduced by measurement error:
+\begin{itemize}
+ \item Bias correction: use a bias correction formula that takes into account the correlation between performance and the error term
+ \item IV approach: measure performance on a second test ($p_2$) and compute $\beta_1 = \frac{\cov(oe, p_2)}{\cov(p, p_2)}$.
+\end{itemize}

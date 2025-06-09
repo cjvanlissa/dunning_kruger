@@ -1,0 +1,40 @@
+\section{Definitions}
+Define random variables
+\begin{itemize}
+ \item $s^*$ denoting skill
+ \item $\epsilon$ denoting measurement error, with $\Exp[\epsilon] = 0$, $\epsilon$ independent of all other random variables included in the model
+ \item $s^*_s$ denoting self-assessed skill
+\end{itemize}
+
+\noindent Then we define performance $p$ as
+\begin{equation} \label{p}
+  p \coloneq s^* + \epsilon
+\end{equation}
+and overconfidence $oc^*$ as
+\begin{equation} \label{oc}
+  oc^* \coloneq s^*_s-s^*
+\end{equation}
+and expected performance $p_e$ as
+\begin{equation} \label{ep}
+  p_e \coloneq s^* + oc^*
+\end{equation}
+Overconfidence $oc^*$ is measured by overestimation $oe$ defined as
+\begin{equation}
+  oe \coloneq p_e - p
+\end{equation}
+
+\section{Theorems}
+
+Theorem 1:
+
+\begin{equation}
+  oe = oc^* - \epsilon
+\end{equation}
+
+Proof 1:
+\noindent From eq. \ref{oc} and \ref{ep} it follows that $p_e = s^*_s$ and further from eq. \ref{ep} and \ref{p} we see
+\begin{align} \label{dd}
+  oe &= p_e - p \\
+  &= (s^* + oc^*) - (s^* + \epsilon) \\
+  &= oc^* - \epsilon
+\end{align}
