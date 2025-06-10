@@ -2,7 +2,7 @@
 
 # Description
 
-This is a FAIR theory (see Van Lissa et al., in preparation) implementation of the Dunning-Kruger (DK) effect.
+This is a FAIR theory (see Van Lissa et al., 2025) implementation of the Dunning-Kruger (DK) effect (Kruger & Dunning, 1999).
 The DK effect is a psychological theory relating levels of performance and self-rated performance. We closely follow the formalization of Feld, Sauermann, and De Grip (2017), who paraphrase the DK effect as "low performers vastly overestimate their performance while high performers more accurately assess their performance".
 
 # Interoperability
@@ -31,12 +31,12 @@ By participating in this project, you agree to abide by the [Contributor Covenan
 
 See this project's Zenodo page for cross-references to related work. 
 
-This repository contains an implementation of the Dunning-Kruger effect proposed by Kruger and Dunning (1999).
-We closely follow the formalization of Feld, Sauermann, and De Grip (2017).
-
 > Feld, J., Sauermann, J., & De Grip, Andreas. 2017. “Estimating the Relationship Between Skill and Overconfidence.” Journal of Behavioral and Experimental Economics 68: 18–24.
 
 > Kruger, J., & Dunning, D. (1999). Unskilled and unaware of it: how difficulties in recognizing one's own incompetence lead to inflated self-assessments. Journal of personality and social psychology, 77(6), 1121.
+
+> Van Lissa, C. J., Peikert, A., Ernst, M., Dongen, N. V., Schönbrodt, F., & Brandmaier, A. M. (2025). To be FAIR: Theory Specification Needs an Update. OSF. https://doi.org/10.31234/osf.io/t53np_v1
+
 
 ## Citing this work
 
